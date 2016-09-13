@@ -13,4 +13,4 @@ For the following message format and value:
 
 A barebones node.js server:
 - sends ~23 bytes using plain JSON.stringify() encoding.
-- sends ~14 bytes using protobuf.js encoding.
+- sends ~14 bytes using protobuf.js' .toBuffer() encoding.
